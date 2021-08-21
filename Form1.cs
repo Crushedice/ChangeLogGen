@@ -15,7 +15,7 @@ namespace ChangeLogGen
     public partial class Form1 : Form
     {
         private Changelog _changelog;
-        private readonly string _logfile = "changelog-generator/data/changelog.json";
+        private readonly string _logfile = "data/changelog.json";
         public Form1()
         {
             InitializeComponent();
